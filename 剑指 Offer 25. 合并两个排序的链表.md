@@ -27,7 +27,7 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
     if l1 == nil && l2 == nil {
         return nil
     }
-
+ 
     //两个都不为空时
     for l1 != nil && l2 != nil {
         if l1.Val < l2.Val {
