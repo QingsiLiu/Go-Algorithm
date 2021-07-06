@@ -49,6 +49,6 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
         slow = slow.Next
     }
 
-    return slow
+    return slow 
 }
 ```
